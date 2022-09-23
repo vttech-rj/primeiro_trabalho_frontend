@@ -1,0 +1,146 @@
+/* Body  */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}
+
+/* TÍTULO DA PÁGINA */
+.titulo-pagina {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(52, 52, 117);
+}
+
+
+/* MENU HORIZONTAL */
+#menu-horizontal {
+    text-align: center;
+    list-style-type: none;
+    background-color: aliceblue;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+#menu-horizontal li {
+    font-size: 20px;
+    display: inline;
+    margin: 20px
+}
+
+#menu-horizontal a {
+    color: rgb(52, 52, 117);
+    text-decoration: none;
+}
+
+#menu-horizontal a:hover {
+    color: coral;
+    text-decoration: none;
+}
+
+
+.titulo-body {
+    text-align: center;
+    color: grey;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Imagem da página */
+.imgpage {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* SUMÁRio */
+.sumario {
+    font-size: 30px;
+    color: grey;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.topicos {
+    color: gray;
+    list-style-type: square;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    font-size: 30px
+}
+
+.topicos li {
+    margin: 10px
+}
+
+.topicos a {
+
+    color: coral;
+    text-decoration: none;
+}
+
+.topicos a:hover {
+    color: rgb(52, 52, 117);
+    text-decoration: none;
+}
+
+.subtitulo {
+
+    color: coral;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+p {
+    color: gray;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    text-align: justify;
+}
+/* Roda pé */
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    width: auto;
+    height: 150px;
+    background-color: rgb(52, 52, 117);
+    margin-top: 200px;
+
+}
+
+.contatos {
+    left: 900px;
+    position: relative;
+    top: 40px;
+
+}
+.redesocial li{
+    display: inline;
+}
+.redesocial a{
+    text-decoration: none;
+}
+
+.redesocial a:hover{      /* terminar de editar */
+    text-decoration: none; 
+}
+.redelogo{
+    width: 35px;
+    margin-left: 5px;
+}
+
+.direitos {
+    left: 50px;
+    position: relative;
+    top: 50px;
+}

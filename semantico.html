@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/stylepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Samântica HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-pagina"> HTML e CSS</h1>
+        <nav>
+            <ul id="menu-horizontal">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="estrutura.html">Estrutura HTML</a></li>
+                <li><a href="semantico.html">Semântica HTML</a></li>
+                <li><a href="estilos.html">Estilização</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1 class="titulo-body">Desvendando a semântica do HTML. </h1>
+
+
+    <img class="imgpage" src="imagem/semantico.jpg" alt="Html5 e Css3">
+
+
+    <h2 class="sumario">Neste artigo, iremos encontrar algumas tag semânticas.</h2>
+
+    <ol class="topicos">
+        <li><a href="#01"> HEADER</a></li>
+        <li><a href="#02"> NAV</a></li>
+        <li><a href="#03"> MAIN </a></li>
+        <li><a href="#04"> ASIDE</a></li>
+        <li><a href="#05"> ARTICLE</a></li>
+        <li><a href="#06"> FOOTER</a></li>
+        
+
+    </ol>
+
+    <h2 class="subtitulo" id="01">- HEADER</h2>
+
+   <p> A tag header representa um contêiner para conteúdo introdutório ou um conjunto de links de navegação.</p>
+   <p> A tag header normalmente contém elementos (h1 - h6), logotipo ou ícone e informações de autoria</p>
+
+    <h2 class="subtitulo" id="02">- NAV</h2>
+
+    <p>A tag nav define um conjunto de links de navegação.</p>
+    <p>Observe que nem todos os links de um documento devem estar dentro de uma tag nav. A tag nav destina-se
+    apenas aos principais blocos de links de navegação.</p>
+    <p>Os navegadores, como leitores de tela para usuários com deficiência, podem usar esse elemento para determinar
+    se devem omitir a renderização inicial desse conteúdo.</p>
+   
+    <h2 class="subtitulo" id="03">- MAIN</h2>
+    <p>A tag mainespecifica o conteúdo principal de um documento.</p>
+    <p>O conteúdo dentro da tag main deve ser exclusivo do documento. Ele não deve conter nenhum conteúdo repetido
+    em documentos como barras laterais, links de navegação, informações de direitos autorais, logotipos de sites e formulários de pesquisa. </p>
+    <p>Não deve haver mais de uma tag main elemento em um documento.</p>
+   
+    <h2 class="subtitulo" id="04">- ASIDE</h2>
+   
+    <p>A tag aside define algum conteúdo além do conteúdo em que é colocado.</p>
+    <p>O conteúdo de lado deve estar indiretamente relacionado ao conteúdo ao redor.</p>
+
+    <h2 class="subtitulo" id="05">- ARTICLE</h2>
+    <p>A tag article especifica conteúdo independente e autocontido.</p>
+    <p>A tag article deve fazer sentido por si só e deve ser possível distribuí-lo independentemente do resto do site.</p>
+    
+    <h2 class="subtitulo" id="06">- FOOTER</h2>
+   <p>A tag footer define um rodapé para um documento ou seção.</p>
+   
+
+<footer>
+<div class="rodape">
+
+<div class="contatos"> 
+
+    <ul class="redesocial">
+
+        <li><a href= "https://www.linkedin.com" target="_blank"> <img class="redelogo" src="imagem/link.png" alt=Linkedin>  </a></li>
+        <li><a href="https://www.instagram.com" target="blank"> <img class="redelogo" src="imagem/insta.png" alt=Instagran>  </a></li>
+        <li><a href= "https://web.whatsapp.com" target="_blank"> <img class="redelogo" src="imagem/wtsp.png" alt=Whatsapp> </a></li>
+        <li><a href= "https://github.com" target="blank" > <img class="redelogo" src="imagem/github.png" alt=Github> </a></li>
+        <li><a href="https://twitter.com" target="blank"> <img class="redelogo" src="imagem/tt.png" alt=Twitter> </a></li>
+        <li><a href="https://www.facebook.com" target="blank"> <img class="redelogo" src="imagem/face.png" alt=Facebook> </a></li>
+        <li><a href="mailto:victorsilva.97@aluno.senai.br" target="blank"><img class="redelogo" src="imagem/gmail.png" alt=Email>  </a></li>
+
+    </ul>
+
+</div>    
+
+<div class="direitos">
+    2022 © Todos os direitos reservados por Vttech Links. 
+</div> 
+</footer>
+
+</html>
